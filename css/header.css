@@ -1,0 +1,20 @@
+.header {
+    height: 80px !important;
+    background-color: #111 !important;
+    padding: 0px 10px !important;
+    gap: 30px !important;
+    position: sticky !important;
+    top: 0px !important;
+    z-index: 1000;
+
+}
+
+.logo {
+    width: 68px !important;
+    height: 68px !important;
+}
+
+nav {
+    width: 200px !important;
+}
+

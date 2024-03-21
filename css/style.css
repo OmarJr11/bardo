@@ -1,0 +1,185 @@
+@import './header.css';
+@import './carousel.css';
+@import './responsive.css';
+
+* {
+    box-sizing: border-box !important;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+body {
+    padding: 0px !important;
+    margin: 0px !important;
+    width: 100% !important;
+    background-color: rgb(0, 9, 19) !important;
+}
+
+h1, h2, h3, h4 { 
+    font-weight: 500 !important;
+    margin: 0px !important;
+}
+
+h1 {
+    font-size: 70px !important;
+}
+
+h2 {
+    font-size: 40px !important;
+}
+
+h3 {
+    font-size: 28px !important;
+}
+
+.text-13 {
+    font-size: 13px !important;
+}
+
+.text-12 {
+    font-size: 12px !important;
+}
+
+a { 
+    text-decoration: none; 
+    color: white;
+    font-size: 15px !important;
+}
+
+.w-100 { width: 100%; }
+
+.h-100 { min-height: 100vh; height: 100%; }
+
+.w-80 { width: 80%; }
+
+.w-50 { width: 50%; }
+
+.w-30 { width: 30%; }
+
+.w-300p { width: 300px; }
+
+.w-400p { width: 400px; }
+
+.w-500p { width: 500px; }
+
+.w-600p { width: 600px; }
+
+p {
+    margin: 0px !important;
+    padding: 0px 8px;
+    font-size: 14px !important;
+}
+
+.mb-2px {
+    margin-bottom: 2px !important;
+}
+
+.mb-8px {
+    margin-bottom: 8px !important;
+}
+
+.mb-10px {
+    margin-bottom: 10px !important;
+}
+
+.mb-12px {
+    margin-bottom: 12px !important;
+}
+
+.mb-14px {
+    margin-bottom: 14px !important;
+}
+
+.mb-18px {
+    margin-bottom: 18px !important;
+}
+
+.mb-28px {
+    margin-bottom: 28px !important;
+}
+
+.mb-32px {
+    margin-bottom: 32px !important;
+}
+
+.ml-8px {
+    margin-left: 8px !important;
+}
+
+.gap-12 {
+    gap: 12px;
+}
+
+.cursive {
+    font-style: oblique;
+}
+
+.radius-4 { border-radius: 4px !important;}
+
+.image { width: 100%; height: 100%;}
+
+.contain {
+    object-fit: contain;
+}
+
+.mask { mask-image: linear-gradient(black 97%, transparent); }
+
+.gold { color: rgb(208, 168, 92); }
+
+.border {
+    border: 2px solid rgb(208, 168, 92); 
+}
+
+.border-left {
+    border-left: 1px solid rgb(208, 168, 92); 
+}
+
+.b-white {
+    background-color: white;
+}
+
+.b-blue {
+    background-color: rgb(0, 9, 19) !important;
+}
+
+.icon {
+    width: 34px !important;
+    height: 30px !important;
+}
+
+.dificultad {
+    width: 60px;
+}
+
+.small {
+    height: 30px;
+    width: 17px;
+    background-color: aqua;
+}
+
+.pt-25p {
+    padding: 25px 0px !important;
+}
+
+.pt-12p {
+    padding-top: 25px !important;
+}
+
+footer {
+    height: 70px !important;
+    background-color: #111 !important;
+}
+
+footer > div {
+    width: 105px !important;
+}
+
+.profile {
+    width: 120px !important;
+    height: 120px !important;
+    border-radius: 100% !important;
+}
+
+.profile > img {
+    border-radius: 100%;
+}
